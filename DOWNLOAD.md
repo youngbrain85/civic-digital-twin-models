@@ -1,45 +1,54 @@
 # Downloading the Digital Twin Models
 
-Due to the large file sizes, the actual Blender models are hosted externally. This repository contains the documentation, metadata, and download instructions.
+The digital twin models are hosted on Zenodo for reliable long-term access and preservation.
+
+## Download from Zenodo
+
+### DOI: 10.5281/zenodo.14259022
+
+**Direct download link**: https://doi.org/10.5281/zenodo.14259022
 
 ## Model Files
 
 ### Fargo Map Large.blend
-- **File Size**: [File size]
-- **Download Options**:
-  - Option 1: [Zenodo Dataset Link - will be added after upload]
-  - Option 2: [Alternative download link]
+- **Location**: Fargo, North Dakota
+- **Description**: Large-scale digital twin model of Fargo city
+- **Format**: Blender 3D model (.blend)
 
 ### Terre Haute.blend
-- **File Size**: [File size]
-- **Download Options**:
-  - Option 1: [Zenodo Dataset Link - will be added after upload]
-  - Option 2: [Alternative download link]
+- **Location**: Terre Haute, Indiana  
+- **Description**: Digital twin model of Terre Haute city
+- **Format**: Blender 3D model (.blend)
 
-## Download Instructions
+## How to Download
 
-### Option 1: Download from Zenodo (Recommended)
-1. Visit the dataset page on Zenodo
-2. Click on the file name to download
-3. The DOI ensures permanent access to these files
+1. Visit https://doi.org/10.5281/zenodo.14259022
+2. Click on "Files" section
+3. Download the desired .blend file(s)
+4. Open in Blender 3.0 or higher
 
-### Option 2: Download Split Archives
-If files are provided as split archives:
-```bash
-# Combine split files (example)
-cat file.7z.001 file.7z.002 file.7z.003 > file.7z
-7z x file.7z
-```
+## System Requirements
 
-## Verification
-After downloading, verify file integrity:
-- Fargo Map Large.blend: [MD5 checksum]
-- Terre Haute.blend: [MD5 checksum]
-
-## Alternative Access Methods
-For researchers who need direct access without downloading:
-- Contact the research team for collaborative access
-- Cloud-based rendering options may be available for specific research needs
+- **Software**: Blender 3.0 or higher
+- **RAM**: Minimum 8GB (16GB+ recommended)
+- **Storage**: Ensure sufficient disk space for the large model files
+- **Graphics**: GPU with OpenGL support recommended
 
 ## License
-These models are released under CC BY 4.0 license. You are free to use, modify, and redistribute them with attribution.
+
+These models are released under Creative Commons Attribution 4.0 International License (CC BY 4.0). You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material for any purpose, even commercially
+
+## Citation
+
+If you use these models in your research, please cite:
+
+```
+Park, Jisoo. (2025). Digital Twin Models for Cities: Fargo and Terre Haute. 
+Zenodo. https://doi.org/10.5281/zenodo.14259022
+```
+
+## Acknowledgments
+
+This material is based upon work supported by the National Science Foundation under Grant No. 2431326, CIVIC-PG Track A: Disaster Response Metaverse (DRM) for Enhancing Community Engagement through Immersive, Interactive Experiences.

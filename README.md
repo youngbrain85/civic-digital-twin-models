@@ -15,9 +15,6 @@ This repository contains digital twin models of cities developed as part of rese
 - **Description**: Digital twin model of Terre Haute city
 - **File Size**: Large file (requires Git LFS)
 
-## Funding Acknowledgment
-This work was supported by the National Science Foundation (NSF) CIVIC Program under Grant No. 2431326.
-
 ## File Structure
 ```
 ├── README.md
@@ -58,28 +55,11 @@ cd civic-digital-twin-models
 git lfs pull
 ```
 
-## Citation
-If you use these models in your research, please cite:
-```
-Park, J. (2025). Digital Twin Models for Cities: Fargo and Terre Haute [Data set]. 
-Indiana State University. Supported by NSF CIVIC Program (Grant No. 2431326). 
-https://doi.org/[ZENODO_DOI]
-```
-
 ## License
-This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).
-
-## Contact
-- Principal Investigator: Jisoo Park
-- Affiliation: Indiana State University
-- Email: [Your email]
-
-## Contributors
-- Jisoo Park, Indiana State University
-- NSF CIVIC Program Team
+This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0). You are free to use, share, and adapt these models for any purpose, including commercial use, as long as you provide appropriate attribution.
 
 ## Related Publications
 [Publications related to these digital twin models will be listed here]
 
 ## Acknowledgments
-We thank the NSF CIVIC Program for supporting this research under Grant No. 2431326. We also acknowledge the communities of Fargo, ND and Terre Haute, IN for their collaboration in developing these digital twin models.
+This material is based upon work supported by the National Science Foundation under Grant No. 2431326, CIVIC-PG Track A: Disaster Response Metaverse (DRM) for Enhancing Community Engagement through Immersive, Interactive Experiences.

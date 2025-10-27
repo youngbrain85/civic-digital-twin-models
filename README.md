@@ -1,5 +1,7 @@
 # Digital Twin Models for Cities
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14259022.svg)](https://doi.org/10.5281/zenodo.14259022)
+
 ## Overview
 This repository contains digital twin models of cities developed as part of research supported by the NSF CIVIC Program (Grant No. 2431326). The models represent detailed 3D reconstructions of Fargo, ND and Terre Haute, IN.
 
@@ -44,8 +46,11 @@ This repository contains digital twin models of cities developed as part of rese
 4. Navigate using standard Blender controls (see documentation for details)
 
 ## Downloading the Models
-Since these are large files, they are stored using Git LFS:
+The Blender model files are available on Zenodo due to their large size:
 
+**Download from Zenodo**: https://doi.org/10.5281/zenodo.14259022
+
+For Git LFS users:
 ```bash
 # Clone with LFS
 git clone https://github.com/youngbrain85/civic-digital-twin-models.git

@@ -14,22 +14,13 @@ This repository contains two digital twin models:
    - Ensure you have at least 8GB RAM (16GB+ recommended for smooth performance)
    - Graphics card with OpenGL support
 
-### Downloading the Models
-These are large files stored with Git LFS:
-```bash
-# Clone with Git LFS
-git lfs install
-git clone https://github.com/youngbrain85/civic-digital-twin-models.git
-cd civic-digital-twin-models
-
-# If already cloned, pull the large files
-git lfs pull
-```
+### Getting the Model Files
+The .blend files are large and are not stored in this repository (see `DOWNLOAD.md`).
 
 ### Opening the Models
 1. Launch Blender
 2. Go to File → Open
-3. Navigate to the `models/` folder
+3. Navigate to the folder that contains the .blend files
 4. Select either:
    - `Fargo Map Large.blend` for Fargo city model
    - `Terre Haute.blend` for Terre Haute city model
@@ -100,7 +91,7 @@ Each model contains organized collections:
 - Close other applications to free RAM
 
 ### File won't open
-- Ensure Git LFS files are fully downloaded
+- Make sure the .blend file was copied completely
 - Check Blender version compatibility
 - Verify sufficient disk space
 
